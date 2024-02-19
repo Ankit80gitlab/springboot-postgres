@@ -1,7 +1,6 @@
-package com.cms.employeemanagement.model;
+package com.cms.core.entity;
 
 
-//import jakarta.persistence.*;
 import lombok.*;
 
 import javax.persistence.Entity;
@@ -9,8 +8,9 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Data
+
 @Entity
+@Data
 @Getter
 @Setter
 @Table(name = "empData")

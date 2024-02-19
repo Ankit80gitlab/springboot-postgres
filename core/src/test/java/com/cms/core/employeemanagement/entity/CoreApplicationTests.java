@@ -1,10 +1,10 @@
-package com.cms.employeemanagement;
+package com.cms.core.employeemanagement.entity;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class EmployeeManagementApplicationTests {
+class CoreApplicationTests {
 
 	@Test
 	void contextLoads() {
